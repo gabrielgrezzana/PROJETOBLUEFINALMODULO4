@@ -1,0 +1,60 @@
+.bodyCharacters {
+  background-color: black;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.315);
+  width: 18%;
+  height: 350px;
+  box-shadow: 3px 3px 3px 3px rgb(235, 226, 226);
+  margin: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.imagemdofigurante {
+  width: 100%;
+  border: none;
+  height: 200px;
+}
+
+.card p {
+  width: 100%;
+  height: 40px;
+  font-size: large;
+  color: black;
+  border: none;
+}
+
+.Modal {
+  background-color: #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  width: 35vw;
+  height: 65vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalchefe {
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+
+.modalchefe p {
+  border: none;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: black;
+}
